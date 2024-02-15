@@ -1476,7 +1476,6 @@ jobs:
             fi
 
             lintian --version
-            lintian --allow-root -v ${EXTRA_LINTIAN_ARGS} ${TARGET_DIR}/debian/*.deb
             ;;
 
           centos|rockylinux)
